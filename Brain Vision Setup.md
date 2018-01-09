@@ -50,3 +50,37 @@
 ### Problems encountered
 1. Incorrect gauge of the needle for inserting the gel in the Electrodes
  - ordered the correct gel and the needle from BrainVision
+
+## 1.9.2018
+1. Jonathan sent the .bref file for the electrode position referencing in the Recorder.
+2. Sent the actiCAP software for recognizing the active electrodes on Google Drive.
+
+
+
+### workspace editing
+1. Go to config->preferences and check the actiCAP electrodes checkbox.
+2. save the .bref in the workspace folder.
+
+### Misc Notes
+1. The software package has a few montages and workspaces which might be useful later on...
+
+### Applying the gel and connecting the Electrodes
+1. Put on the cap and make sure it is secure.
+2. Fill the syringe with the gel. Try to avoid air bubbles.
+3. insert the syringe in the electrode till the tip touches the bottom.
+4. Move the syringe while holding the electrode with the left hand. Move it in circles to remove the hair from the base of the electrode. (Very Important STEP)
+5. Fill the ref, ground and channel 1 first.
+6. Checking Impedances
+  a. On the Software
+  b. Using the Control box
+    i. Click on the 'Z' button to put it in the impedance mode.
+
+  Red - High Impedances
+  Yellow - Almost there
+  Green - Woohoo!
+7. Fill the gel in the gap with a slight hand movement.
+** The gel hardens ~ 5 mins.
+** Make sure the Gel is cleaned after the usage or it will harden!
+
+### Problems encountered
+1. Recorder has stopped working for some reason!
