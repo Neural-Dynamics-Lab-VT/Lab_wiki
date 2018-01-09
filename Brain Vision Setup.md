@@ -35,6 +35,18 @@
 1. Electrode Position file can be uploaded which contains the electrode position data which can be found on the BrainVision website.
 2. Lab Streaming Ware  - Check this out to view the live data feed from the amp.
 
+### Additional Pointers while creating a workspace
+1. Change resolution in the edit workspace window. The resolution also determines the voltage range.
+2. Can do DC recording by setting the lower cutoff in the mater setting.
+3. USB URL: localhost:1947/int/devices.html
+4. Software filters:
+         * Filters data when it is recording. (Avoid this when possible)
+         * Available when editing workspace
+         * Notch Filter: 60Hz
+         * High Cutoff Filter: 40Hz
+         * Low Cutoff filter: Freq -> 0.2 Hz
+         * Segment filters can be used to segment data on the fly.
+
 ### Problems encountered
 1. Incorrect gauge of the needle for inserting the gel in the Electrodes
  - ordered the correct gel and the needle from BrainVision
