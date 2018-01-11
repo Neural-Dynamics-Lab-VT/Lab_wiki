@@ -103,4 +103,36 @@
 
 ## Using Brain Vision Analyzer
 
-1. Save the EEG data by starting a recording and then stoping it using BrainVision Recorder
+1. Save the EEG data by starting a recording and then stopping it using BrainVision Recorder
+
+![alt text](./Images/saveRecording.png)
+
+2. Open Analyzer and create a new workspace from File -> New
+
+3. Create new folders for 'Raw Files', 'History Files' and 'Export Files'
+
+4. Place the generated Raw files (.eeg (Actual Data), .vhdr(Header file containing the references to the other files) and .vmrk(marker files)) from Recorder in step in the 'Raw Files' directory from step 3
+
+5. (Optional) Re-open the workspace to view the files if they are not visible in the primary window.
+
+6. Double click the raw file to view it in the Analyzer.
+
+## Export as .EDF+ format
+
+Go to export -> EDF and generate a EDF file for the recorded data.
+
+## Reading the file from python
+
+We are using python package 'mne' for exploring the data.
+
+1. add the package to your env using instructions given [here](https://github.com/mne-tools/mne-python)
+
+2. We are using the following two formats of the data
+
+  a. .edf - > `mne.io.read_raw_edf()`
+
+  b. .vhdr (contains .eeg + .vmrk) - > `mne.io.read_raw_brainvision()`
+
+  ** .vhdr contains the links to the .eeg and .vmrk file in it. Hence we read this in the python.
+
+  More on those functions [here](https://martinos.org/mne/stable/manual/io.html)
