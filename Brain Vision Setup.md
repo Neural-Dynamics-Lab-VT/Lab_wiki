@@ -40,11 +40,17 @@
 2. Can do DC recording by setting the lower cutoff in the mater setting.
 3. USB URL: localhost:1947/int/devices.html
 4. Software filters:
+
          * Filters data when it is recording. (Avoid this when possible)
+
          * Available when editing workspace
+
          * Notch Filter: 60Hz
+
          * High Cutoff Filter: 40Hz
+
          * Low Cutoff filter: Freq -> 0.2 Hz
+
          * Segment filters can be used to segment data on the fly.
 
 ### Problems encountered
@@ -71,16 +77,26 @@
 4. Move the syringe while holding the electrode with the left hand. Move it in circles to remove the hair from the base of the electrode. (Very Important STEP)
 5. Fill the ref, ground and channel 1 first.
 6. Checking Impedances
+
   a. On the Software
+
   b. Using the Control box
+
     i. Click on the 'Z' button to put it in the impedance mode.
 
   Red - High Impedances
+
   Yellow - Almost there
+
   Green - Woohoo!
+
 7. Fill the gel in the gap with a slight hand movement.
+
 ** The gel hardens ~ 5 mins.
+
 ** Make sure the Gel is cleaned after the usage or it will harden!
+
 
 ### Problems encountered
 1. Recorder has stopped working for some reason!
+  - Reinstalled on another system. There was an error with the driver.
