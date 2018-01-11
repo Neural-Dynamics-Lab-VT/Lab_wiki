@@ -100,3 +100,7 @@
 ### Problems encountered
 1. Recorder has stopped working for some reason!
   - Reinstalled on another system. There was an error with the driver.
+
+## Using Brain Vision Analyzer
+
+1. Save the EEG data by starting a recording and then stoping it using BrainVision Recorder
